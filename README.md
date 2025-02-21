@@ -54,8 +54,7 @@ agarwalchetan-startup-sphere-web/
 ## 📦 Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Agarwalchetan/startup-sphere-web.git
-   cd agarwalchetan-startup-sphere-web
+   git clone https://https://github.com/iamshubham1704/startupshpere.git
    ```
 2. Install dependencies:
    ```sh
