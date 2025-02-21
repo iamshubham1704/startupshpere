@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer components {
+  .department-card {
+    @apply bg-black/50 backdrop-blur-sm p-6 rounded-xl border border-[#FEB90B]/20 hover:border-[#FEB90B] transition-all duration-300;
+  }
+  
+  .nav-link {
+    @apply text-white/80 hover:text-[#FEB90B] transition-colors duration-200;
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #FEB90B, #FFD700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
